@@ -1,0 +1,67 @@
+* {
+  font-family: Slabo, serif;
+}
+
+html {
+  padding: 60px;
+  background-color: DodgerBlue;
+}
+
+header {
+  width: 100%;
+}
+
+header img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 35px;
+  width: 200px;
+  display: block;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 400px;
+}
+
+fieldset {
+  position: relative;
+  right:15px;
+}
+
+.container {
+  width: 400px;
+  height: auto;
+  box-sizing: border-box;
+  padding: 40px;
+  background-color: Azure;
+  display: inline-block;
+}
+
+fieldset label {/*I cant override inheritance*/
+  text-align: left;
+}
+
+.login, .login a {
+  color: white;
+}
+
+#email, #pwd, #button {
+  width: 320px;
+  height: 55px;
+  box-sizing: border-box;
+  border: 2px solid AntiqueWhite;
+  padding: 15px;
+}
+
+#button {
+  margin-top: 15px;
+  border: none;
+  background-color: MediumSeaGreen;
+}
+
+#button:hover {
+  background-color: DarkGreen;
+}
