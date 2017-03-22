@@ -1,51 +1,76 @@
 * {
   font-family: Slabo, serif;
+  box-sizing: border-box;
 }
 
 html {
-  padding: 60px;
   background-color: DodgerBlue;
+  padding: 60px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 header {
-  width: 100%;
+  margin-bottom: 30px;
 }
 
 header img {
   margin-left: auto;
   margin-right: auto;
   height: 35px;
-  width: 200px;
+  width: 150px;
   display: block;
 }
 
 main {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   width: 400px;
 }
 
-fieldset {
-  position: relative;
-  right:15px;
-}
-
-.container {
+.search-form {
   width: 400px;
   height: auto;
-  box-sizing: border-box;
   padding: 40px;
   background-color: Azure;
   display: inline-block;
 }
 
-fieldset label {/*I cant override inheritance*/
+.search-form h1,
+.search-form p {
+  text-align: center;
+}
+
+.search-form p {
+  font-size: 12px;
+}
+
+fieldset {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  width: 320px;
+}
+
+fieldset label,
+fieldset input,
+fieldset button {
+  font-size: 18px;
+}
+
+fieldset input {
   text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+fieldset button {
+  text-align: center;
 }
 
 .login, .login a {
   color: white;
+  text-align: center;
 }
 
 #email, #pwd, #button {
