@@ -45,6 +45,10 @@ main {
   font-size: 12px;
 }
 
+.search-form p a {
+  color: gray;
+}
+
 fieldset {
   border: none;
   margin: 0px;
@@ -68,7 +72,8 @@ fieldset button {
   text-align: center;
 }
 
-.login, .login a {
+/*#login a -> changes link color to white*/
+#login, #login a {
   color: white;
   text-align: center;
 }
